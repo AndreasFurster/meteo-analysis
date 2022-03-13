@@ -1,0 +1,339 @@
+var: station
+long_name            = Station id
+cf_role              = timeseries_id
+
+var: time
+long_name            = time of measurement
+standard_name        = time
+units                = seconds since 1950-01-01 00:00:00
+
+var: stationname
+long_name            = Station name
+
+var: lat
+long_name            = station  latitude
+standard_name        = latitude
+units                = degrees_north
+
+var: lon
+long_name            = station longitude
+standard_name        = longitude
+units                = degrees_east
+
+var: height
+long_name            = Station height
+standard_name        = height
+units                = m
+
+var: dd
+_FillValue           = -9999.0
+standard_name        = wind_from_direction
+units                = degree
+long_name            = Wind Direction 10 Min Average
+
+var: ff
+_FillValue           = -9999.0
+standard_name        = wind_speed
+units                = m s-1
+long_name            = Wind Speed at 10m 10 Min Average
+
+var: gff
+_FillValue           = -9999.0
+standard_name        = wind_speed_of_gust
+units                = m s-1
+long_name            = Wind Gust at 10m 10 Min Maximum
+
+var: ta
+_FillValue           = -9999.0
+standard_name        = air_temperature
+units                = degrees Celsius
+long_name            = Air Temperature 1 Min Average
+
+var: rh
+_FillValue           = -9999.0
+standard_name        = relative_humidity
+units                = %
+long_name            = Relative Humidity 1 Min Average
+
+var: pp
+_FillValue           = -9999.0
+standard_name        = air_pressure_at_sea_level
+units                = hPa
+long_name            = Air Pressure at Sea Level 1 Min Average
+
+var: zm
+_FillValue           = -9999.0
+standard_name        = visibility_in_air
+units                = m
+long_name            = Meteorological Optical Range 10 Min Average
+
+var: D1H
+_FillValue           = -9999.0
+long_name            = Rainfall Duration in last Hour
+standard_name        = rainfall_duration
+units                = min
+
+var: dr
+_FillValue           = -9999.0
+long_name            = Precipitation Duration (Rain Gauge) 10 Min Sum
+standard_name        = precipitation_duration
+units                = sec
+
+var: hc
+_FillValue           = -9999.0
+long_name            = Cloud Base
+standard_name        = cloud_base_altitude
+units                = ft
+
+var: hc1
+_FillValue           = -9999.0
+long_name            = Cloud Base First Layer
+standard_name        = cloud_base_altitude
+units                = ft
+
+var: hc2
+_FillValue           = -9999.0
+long_name            = Cloud Base Second Layer
+standard_name        = cloud_base_altitude
+units                = ft
+
+var: hc3
+_FillValue           = -9999.0
+long_name            = Cloud Base Third Layer
+standard_name        = cloud_base_altitude
+units                = ft
+
+var: nc
+_FillValue           = -9999.0
+long_name            = Total cloud cover
+standard_name        = cloud_cover
+units                = octa
+
+var: nc1
+_FillValue           = -9999.0
+long_name            = Cloud Amount First Layer
+standard_name        = cloud_cover
+units                = octa
+
+var: nc2
+_FillValue           = -9999.0
+long_name            = Cloud Amount Second Layer
+standard_name        = cloud_cover
+units                = octa
+
+var: nc3
+_FillValue           = -9999.0
+long_name            = Cloud Amount Third Layer
+standard_name        = cloud_cover
+units                = octa
+
+var: pg
+_FillValue           = -9999.0
+long_name            = Precipitation Intensity (PWS) 10 Min Average
+standard_name        = lwe_precipitation_rate
+units                = mm/h
+
+var: pr
+_FillValue           = -9999.0
+long_name            = Precipitation Duration (PWS) 10 Min Sum
+standard_name        = precipitation_duration
+units                = sec
+
+var: qg
+_FillValue           = -9999.0
+long_name            = Global Solar Radiation 10 Min Average
+standard_name        = total_downwelling_shortwave_flux_in_air
+units                = W m-2
+
+var: R12H
+_FillValue           = -9999.0
+long_name            = Rainfall in last 12 Hours
+standard_name        = rainfall_amount
+units                = mm
+
+var: R1H
+_FillValue           = -9999.0
+long_name            = Rainfall in last Hour
+standard_name        = rainfall_amount
+units                = mm
+
+var: R24H
+_FillValue           = -9999.0
+long_name            = Rainfall in last 24 Hours
+standard_name        = rainfall_amount
+units                = mm
+
+var: R6H
+_FillValue           = -9999.0
+long_name            = Rainfall in last 6 Hours
+standard_name        = rainfall_amount
+units                = mm
+
+var: rg
+_FillValue           = -9999.0
+long_name            = Precipitation Intensity (Rain Gauge) 10 Min Average
+standard_name        = precipitation_rate
+units                = mm/h
+
+var: ss
+_FillValue           = -9999.0
+long_name            = Sunshine Duration
+standard_name        = duration_of_sunshine
+units                = min
+
+var: td
+_FillValue           = -9999.0
+long_name            = Dew Point Temperature 1.5m 1 Min Average
+standard_name        = dew_point_temperature
+units                = degrees Celsius
+
+var: tgn
+_FillValue           = -9999.0
+long_name            = Grass Temperature 10cm 10 Min Minimum
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tgn12
+_FillValue           = -9999.0
+long_name            = Grass Temperature Minimum last 12 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tgn14
+_FillValue           = -9999.0
+long_name            = Grass Temperature Minimum last 14 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tgn6
+_FillValue           = -9999.0
+long_name            = Grass Temperature Minimum last 6 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: tn
+_FillValue           = -9999.0
+long_name            = Ambient Temperature 1.5m 10 Min Minimum
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tn12
+_FillValue           = -9999.0
+long_name            = Air Temperature Minimum last 12 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tn14
+_FillValue           = -9999.0
+long_name            = Air Temperature Minimum last 14 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tn6
+_FillValue           = -9999.0
+long_name            = Air Temperature Minimum last 6 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: tx
+_FillValue           = -9999.0
+long_name            = Ambient Temperature 1.5m 10 Min Maximum
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tx12
+_FillValue           = -9999.0
+long_name            = Air Temperature Maximum last 12 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tx24
+_FillValue           = -9999.0
+long_name            = Air Temperature Maximum last 24 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: Tx6
+_FillValue           = -9999.0
+long_name            = Air Temperature Maximum last 6 Hours
+standard_name        = air_temperature
+units                = degrees Celsius
+
+var: ww
+_FillValue           = -9999.0
+long_name            = wawa Weather Code
+units                = code
+comment              = WMO table 4680
+
+var: pwc
+_FillValue           = -9999.0
+long_name            = Present Weather
+units                = code
+comment              = KNMI: Handboek waarnemingen
+
+var: ww-10
+_FillValue           = -9999.0
+long_name            = wawa Weather Code for Previous 10 Min Interval
+units                = code
+comment              = WMO table 4680
+
+var: ts1
+_FillValue           = -9999.0
+long_name            = Number of Lightning Discharges at Station
+standard_name        = Lightning on-site
+units                = Number
+
+var: ts2
+_FillValue           = -9999.0
+long_name            = Number of Lightning Discharges near Station
+standard_name        = Lightning nearby
+units                = Number
+
+var: iso_dataset
+title                = KMDS__OPER_P___10M_OBS_L2
+abstract             = Most recent 10 minute in situ observations of the Dutch meteorological observation network
+status               = ongoing
+type                 = dataset
+uid                  = c3a312e2-2d8f-440b-ae7d-3406c9fe2f77
+topic                = climatology, meteorology, atmosphere
+keyword              = temperature, pressure, relative humidity, visibility, wind speed, wind direction, wind gust
+max-x                = 10.0
+min-x                = 0.0
+max-y                = 60.0
+min-y                = 40.0
+temporal_extent      = 1950-01-01 and ongoing
+date                 = 2013-10-10
+dateType             = publication date
+statement            = KNMI operates in the Netherlands 33 automatic weather stations on land, 15 wind poles in coastal areas and 13 automatic weather stations on North Sea platforms (Dutch part of the Continental Shelf North Sea). These weather stations report meteorological paramaters such as temperature, relative humidity, wind (speed, gust, direction), air pressure and visibility every 10 minutes. Only stations that report within 6 minutes after observation time - 47 in total - are part of this dataset: actual synoptic observations per 10 minutes.
+code                 = 4326
+codeSpace            = EPSG
+accessConstraints    = No limitations
+useLimitation        = No use limitations
+organisationName_dataset = Royal Netherlands Meteorological Institute (KNMI)
+email_dataset        = datacentrum@knmi.nl
+role_dataset         = pointOfContact
+metadata_id          = fbfad5b9-1dd2-425e-bb35-c96386380c0e
+organisationName_metadata = Royal Netherlands Meteorological Institute (KNMI)
+role_metadata        = pointOfContact
+email_metadata       = datacentrum@knmi.nl
+url_metadata         = http://data.knmi.nl
+datestamp            = 2014-07-23
+language             = eng
+metadataStandardName = ISO 19115
+metadataStandardNameVersion = Nederlandse metadatastandaard op ISO 19115 voor geografie 1.2
+
+var: product
+units                = 1
+long_name            = ADAGUC Data Products Standard
+ref_doc              = ADAGUC Data Products Standard
+ref_doc_version      = 1.1
+format_version       = 1.1
+originator           = Royal Netherlands Meteorological Institute (KNMI)
+type                 = P
+acronym              = KMDS__OPER_P___10M_OBS_L2
+level                = L2
+style                = camelCase
+
+var: projection
+EPSG_code            = EPSG:4326
+
